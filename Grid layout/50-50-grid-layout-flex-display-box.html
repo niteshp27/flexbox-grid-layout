@@ -31,10 +31,13 @@
 	.flexFullHeight{
 		display: flex;
 		height: 100%;
-		align-items: stretch;
-		justify-content: space-between;
-		flex-wrap: wrap;
 		flex-direction: row;
+		/*main-axis*/
+		justify-content: space-between;
+		/*cross-axis*/
+		align-items: stretch;
+
+		flex-wrap: wrap;		
 		box-shadow: 1px 1px #b4b;
 	}
 	
@@ -59,10 +62,12 @@
 	.flexCenter{
 		display: flex;
 		height: 100%;
-		align-items: center;
-		justify-content: center;
-		flex-wrap: wrap;
 		flex-direction: row;
+		/*main-axis*/
+		justify-content: center;
+		/*cross-axis*/
+		align-items: center;
+		flex-wrap: wrap;
 		box-shadow: 0px 0px 5px #f00;
 	}
 	
@@ -70,7 +75,7 @@
 </head>
 <body>
 	<div class="gridContainer">
-
+		<!-- Flex Direction Row -->
 		<div class="gridCol1">
 			<div class="flexFullHeight">
 				<div class="flexItem flexItem1" style="">
