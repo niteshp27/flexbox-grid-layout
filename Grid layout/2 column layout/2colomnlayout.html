@@ -20,10 +20,48 @@
             </section>
             <main class="two-col">
                 <section class="tl-left ">
-                    Time line left section.
+                    Time line left section. <code>.two-col</code> class has been applied grid css styles.<br>Inspect the HTML to see the css class names.
+					<br>
+					<code>
+					.content-wrapper{
+						background-color: #eed;
+						display: grid;
+						grid-template-columns: 1fr;
+						grid-template-rows: 150px 200px 350px 150px;
+						grid-template-areas: "header"
+											"banner"
+											"main"
+											"footer";
+					}
+					main.two-col{
+						display: grid;
+						grid-template-columns: 1fr 1fr;
+						grid-template-rows: 150px;
+						grid-template-areas: "tl-left tl-right";
+					}
+					</code>
                 </section>
                 <section class="tl-right ">
-                    Time line right section.
+                    Time line right section. <code>.two-col</code> class has been applied grid css styles.<br>Inspect the HTML to see the css class names.
+					<br>
+					<code>
+						.content-wrapper{
+							background-color: #eed;
+							display: grid;
+							grid-template-columns: 1fr;
+							grid-template-rows: 150px 200px 350px 150px;
+							grid-template-areas: "header"
+												"banner"
+												"main"
+												"footer";
+						}
+						main.two-col{
+							display: grid;
+							grid-template-columns: 1fr 1fr;
+							grid-template-rows: 150px;
+							grid-template-areas: "tl-left tl-right";
+						}
+					</code>
                 </section>
             </main>
             <footer>

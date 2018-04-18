@@ -20,10 +20,48 @@
             </section>
             <main class="two-colaside">
                 <section class="left-section">
-                    Time line left section.Grid Implementation Example. <code>.two-colaside</code> class has been applied grid css styles.<br>INspect the HTML to see the css.
+                    Time line left section.Grid Implementation Example. <code>.two-colaside</code> class has been applied grid css styles.<br>Inspect the HTML to see the css.
+					<br>
+					<code>
+					.content-wrapper{
+						background-color: #eed;
+						display: grid;
+						grid-template-columns: 1fr;
+						grid-template-rows: 150px 200px 350px 150px;
+						grid-template-areas: "header"
+											"banner"
+											"main"
+											"footer";
+					}
+					main.two-colaside{
+						display: grid;
+						grid-template-columns: 10fr 2fr;
+						grid-template-rows: 150px;
+						grid-template-areas: "left-section right-aside";
+					}
+					</code>
                 </section>
                 <section class="right-aside">
                     Right Navigation right section. Grid Implementation Example. <code>.two-colaside</code> class has been applied grid css styles.
+					<br>
+					<code>
+					.content-wrapper{
+						background-color: #eed;
+						display: grid;
+						grid-template-columns: 1fr;
+						grid-template-rows: 150px 200px 350px 150px;
+						grid-template-areas: "header"
+											"banner"
+											"main"
+											"footer";
+					}
+					main.two-colaside{
+						display: grid;
+						grid-template-columns: 10fr 2fr;
+						grid-template-rows: 150px;
+						grid-template-areas: "left-section right-aside";
+					}
+					</code>
                 </section>
             </main>
             <footer>
