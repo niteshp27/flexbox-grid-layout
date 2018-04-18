@@ -9,7 +9,7 @@
 	.gridContainer{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 300px;
+		grid-template-rows: auto;
 		margin: 0;
 		grid-gap: 10px;
 	}
@@ -79,20 +79,93 @@
 		<div class="gridCol1">
 			<div class="flexFullHeight">
 				<div class="flexItem flexItem1" style="">
-					<div class="flexPanel"><h3 class="text-left">Step 5 -) Inside the output layer</h3></div>
+					<div class="flexPanel">
+						<h3 class="text-left">Flex layout</h3>
+						<div>
+							<code>.flexItem, .flexItem1, .flexPanel</code> class has been applied flexbox css styles.<br>Inspect the HTML to see the css.
+							<br>
+					<pre><code>
+	.flexFullHeight .flexItem{
+		width: 50%;
+	}
+	.flexFullHeight .flexItem1{
+		background: rgba(256,256,256,0.5);
+		box-shadow: 0px 0px 5px orangered;
+	}
+	.flexFullHeight .flexItem .flexPanel{
+		padding: 10px;
+	}
+					</code></pre>
+							</div>
+					</div>
 				</div>
 				<div class="flexItem flexItem2" style="">
-					<div class="flexPanel"><h3 class="text-left">Step 5 -) Inside the output layer</h3></div>
+					<div class="flexPanel"><h3 class="text-left">Flex layout</h3>
+						<div>
+<code>.flexItem, .flexItem2, .flexPanel</code> class has been applied flexbox css styles.<br>Inspect the HTML to see the css.
+							<br>
+					<pre><code>
+	.flexFullHeight .flexItem{
+		width: 50%;
+	}
+	.flexFullHeight .flexItem2{
+		background: rgba(256,256,256,0.5);
+		box-shadow: 0px 0px 5px blue;
+	}
+	.flexFullHeight .flexItem .flexPanel{
+		padding: 10px;
+	}
+					</code></pre>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="gridCol2">
 			<div class="flexCenter">
-				<div class="" style=" border: 1px solid #2f3; padding: 5px;"><h3 class="text-left">Sample text</h3></div>
+				<div class="" style=" border: 1px solid #2f3; padding: 5px;"><h3 class="text-left">Flex Layout Center Horizontal and vertical</h3>
+					<div>
+							<code>.flexCenter</code> class has been applied flexbox css styles.<br>Inspect the HTML to see the css.
+							<br>
+							<pre><code>
+	.flexFullHeight .flexItem .flexPanel{
+		padding: 10px;
+	}						
+							</code></pre>
+					</div>
+				</div>
 			</div>
 		</div>
 
+	</div>
+	<div>
+	Grid Layout and Flexbox Implementation in a single example. <code>.gridContainer</code> class has been applied grid css styles.<br>Inspect the HTML to see the css.
+					<br>
+					<pre><code>
+.gridContainer{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		margin: 0;
+		grid-gap: 10px;
+	}
+	.gridContainer .gridCol1{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 100%;
+		float: none;
+		padding: 0;
+		background-color: rgba(200,200,0,0.5);
+	}
+	.gridContainer .gridCol2{
+		grid-column: 2/3;
+		grid-row: 1/2;
+		width: 100%;
+		padding: 0;
+		background-color: #6b4;
+	}
+					</code></pre>
 	</div>
 	<div>
 		<h3>Other examples</h3>
