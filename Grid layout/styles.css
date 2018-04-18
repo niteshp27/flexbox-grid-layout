@@ -14,7 +14,7 @@
 
 main.two-colaside{
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 10fr 2fr;
     grid-template-rows: 150px;
     grid-template-areas: "left-section right-aside";
 }
