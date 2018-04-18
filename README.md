@@ -5,7 +5,7 @@ Bare skeletons examples implementing grid layout and flexbox layouts.
 
 Examples:-
 
-You can find a demo of the implementation here
+<b>You can find a demo of the implementation here</b>
 
 <a href="https://niteshp27.github.io/flexbox-grid-layout/" target="_blank">Grid Layout and Flexbox Implementation in a single example</a>
 
